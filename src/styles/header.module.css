@@ -1,0 +1,30 @@
+.header {
+  box-shadow: 0 12px 20px 0 rgba(153, 170, 207, 0.1);
+}
+
+.nav {
+  max-width: 100rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 0;
+}
+
+.login a {
+  font-size: 1.6rem;
+  position: relative;
+}
+
+.login a::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-image: url(../styles/img/shop_menu_particle.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: -5px;
+  right: -10px;
+}
