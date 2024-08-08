@@ -1,7 +1,7 @@
 import styles from "../../../styles/main.module.css";
 import SearchCont from "../../../components/searchCont";
 
-export const API_URL = "http://localhost:8080/search";
+export const API_URL = "http://211.210.79.63:5592/search";
 
 async function getMovies() {
   const response = await fetch(API_URL);
